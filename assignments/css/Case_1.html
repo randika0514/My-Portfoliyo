@@ -62,6 +62,35 @@
             top: 0;
             margin: auto;
         }
+
+        main > div:nth-child(6), main > div:nth-child(7),main > div:nth-child(8),main > div:nth-child(9){
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+            position: absolute;
+            background: white;
+        }
+
+        main > div:nth-child(6){
+            left: 0;
+            top: 0;
+            border-bottom-right-radius: 100%;
+        }
+        main > div:nth-child(7){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 100%;
+        }
+        main > div:nth-child(8){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 100%;
+        }
+        main > div:nth-child(9){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius: 100%;
+        }
     </style>
 </head>
 <body>
@@ -74,6 +103,12 @@
     <div>
         <div></div>
     </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
 </main>
 </body>
 </html>
