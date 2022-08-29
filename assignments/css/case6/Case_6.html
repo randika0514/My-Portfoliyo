@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Case Six</title>
-  <link rel="stylesheet" href="../../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../../assets/css/normalize.css">
 
   <style>
+      body > main {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+      }
 
+      body > main > section {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+      }
   </style>
 </head>
 <body>
