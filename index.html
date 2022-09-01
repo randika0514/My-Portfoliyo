@@ -43,11 +43,19 @@
             top: 0;
         }
 
-        main > section:first-child {
+        /*main > section:first-child {
             background: url("assets/img/city-view-through-window-with-rain-drops.jpg");
             width: 100%;
             height: 100vh;
             position: relative;
+        }*/
+
+        main > section:first-child > img {
+            height: 100vh;
+            width: 99vw;
+            position: relative;
+            top: 0;
+            left: 0;
         }
 
     </style>
@@ -70,7 +78,9 @@
 </header>
 
 <main>
-    <section></section>
+    <section>
+        <img src="assets/img/city-view-through-window-with-rain-drops.jpg" alt="Background img">
+    </section>
 
     <section></section>
 </main>
