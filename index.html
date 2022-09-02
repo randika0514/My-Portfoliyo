@@ -38,17 +38,17 @@
             font-size: 1.5em;
         }
 /*----------------------------end header-------------------------------------*/
-        main {
+        /*main {
             position: relative;
             top: 0;
         }
 
-        /*main > section:first-child {
+        !*main > section:first-child {
             background: url("assets/img/bg.jpg");
             width: 100%;
             height: 100vh;
             position: relative;
-        }*/
+        }*!
 
         main > section:first-child > img:first-child {
             height: 100vh;
@@ -88,8 +88,18 @@
             position: absolute;
             transform: skew(0,25deg);
             top: 1145px;
-        }
+        }*/
 
+        main>section:first-child>img {
+            height: 900px;
+            width: 98.9vw;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
 
     </style>
 
@@ -114,9 +124,11 @@
 <main>
     <section>
         <img src="assets/img/bg.jpg" alt="">
-        <div><img src="assets/img/My-img.png" alt=""></div>
-        <div></div>
     </section>
+
+    <div></div>
+
+    <img src="assets/img/My-img.png" alt="">
 
     <section></section>
 
