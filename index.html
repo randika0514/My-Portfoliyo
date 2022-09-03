@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap');
+
         body {
             margin: 0;
         }
@@ -36,7 +38,9 @@
             padding: 10px;
             color: white;
             list-style: none;
-            font-size: 1.5em;
+            font-size: 1.4em;
+            font-family: sans-serif;
+            font-weight: bold;
         }
 /*----------------------------end header-------------------------------------*/
         main {
@@ -85,9 +89,46 @@
         }
 /*=========================================*/
 
+        h2#myName{
+            color: #199a88;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
 
+        .div2 {
+            background: transparent;
+            height: 409px;
+            width: 550px;
+            position: absolute;
+            top: 104px;
+            left: 735px;
+            margin: auto;
+            transform: skew(0 ,0deg);
+        }
 
+        #developer {
+            color: white;
+            font-size: 4.7em;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
 
+        #designer {
+            color: #edd40c;
+            font-size: 4.7em;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #freelancer {
+            color: white;
+            font-size: 4.7em;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
     </style>
 
 </head>
@@ -121,18 +162,11 @@
 
     <!--========================================================-->
 
-    <div style="background: #0000FE;
-            height: 409px;
-            width: 550px;
-            position: absolute;
-            top: 104px;
-            left: 735px;
-            margin: auto;
-            transform: skew(0 ,0deg);">
-        <h2>HELLO,I'M RANDIKA DIMANTHA!</h2>
-        <h1>DEVELOPER</h1>
-        <h1>DESIGNER</h1>
-        <h1>FREELANCER</h1>
+    <div class="div2">
+        <h2 id="myName">HELLO,I'M RANDIKA DIMANTHA!</h2>
+        <h1 id="developer">DEVELOPER</h1>
+        <h1 id="designer">DESIGNER</h1>
+        <h1 id="freelancer">FREELANCER</h1>
     </div>
 
 
