@@ -8,6 +8,7 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
         body {
             margin: 0;
@@ -15,12 +16,13 @@
 /*----------------------------Start header-------------------------------------*/
         header {
             background: transparent;
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 50px;
             top: 0;
             left: 0;
             z-index: 2;
+            backdrop-filter: blur(50px);
         }
 
         header > nav {
@@ -79,7 +81,7 @@
             transform: skew(0,333deg);
         }
 
-        #thirdBackground {
+        #services {
             background: #d4d3d8;
             height: 110vh;
             width: 98.9vw;
@@ -87,6 +89,25 @@
             top: 1171px;
             transform: skew(0,23deg);
         }
+
+        #secondBackground > div {
+            transform: skew(0,27deg);
+            height: 217px;
+            width: 239px;
+            background: transparent;
+            margin: auto;
+            left: 740px;
+            position: absolute;
+            top: 60px;
+        }
+
+        #secondBackground > div > p {
+            margin-top: 0;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3em;
+        }
+
 /*=========================================*/
 
         h2#myName{
@@ -95,7 +116,7 @@
             font-weight: bold;
         }
 
-        .div2 {
+        .intro {
             background: transparent;
             height: 409px;
             width: 550px;
@@ -154,15 +175,24 @@
         <img src="assets/img/bg.jpg" alt="">
     </section>
 
-    <div id="secondBackground"></div>
+    <div id="secondBackground">
+        <div>
+            <p>I'm a student at IJSE(Institute of Software Engineerinng) in Sri Lanka.
+                I'm following a degree program in Computer Science.
+                HTML, CSS and Internet Technology are the subjects that I'm currently learning.</p>
+        </div>
+        <div>
+            <h3></h3>
+        </div>
+    </div>
 
     <img src="assets/img/IMG_3151%20(1)%20(1).png" alt="">
 
-    <section id="thirdBackground"></section>
+    <section class="main-section" id="services"></section>
 
     <!--========================================================-->
 
-    <div class="div2">
+    <div class="intro">
         <h2 id="myName">HELLO,I'M RANDIKA DIMANTHA!</h2>
         <h1 id="developer">DEVELOPER</h1>
         <h1 id="designer">DESIGNER</h1>
