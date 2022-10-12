@@ -1,0 +1,36 @@
+header{
+    background: #b9bbbe;
+}
+
+#main-section1{
+    height: 14.8vh;
+    grid-gap: 5vw;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 20px;
+}
+#title-1,#title-2,#title-3,#title-4{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #dcdce8;
+}
+#t1,#t2,#t3,#t4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88em;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#count1,#count2,#count3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    color: #9264E1;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 15vw;
+}
+
+#btn1{
+    position: absolute;
+    top: 40%;
+}
