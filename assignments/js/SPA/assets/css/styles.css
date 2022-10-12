@@ -55,3 +55,14 @@ header{
     top: 3%;
     left: 0.7%;
 }
+
+#customerContent>section:first-child>div>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#customerContent>section:first-child>div:first-child>h1{
+    color: #dd6e5c;
+}
