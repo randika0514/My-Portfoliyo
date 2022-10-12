@@ -128,6 +128,72 @@
 </main>
 
 
+<!---------------------------------Item----------------------------------->
+<main class="container-fluid" id="ItemContent">
+
+    <section class="row">
+        <div class="col-4">
+            <h1>Item Details</h1>
+
+            <div class="form-group">
+                <label for="txtItemCode">Item Code</label>
+                <input class="form-control" id="txtItemCode" required type="text">
+                <span class="control-error" id="lblItemCode"></span>
+            </div>
+            <div class="form-group">
+                <label for="txtItemName">Item Name</label>
+                <input class="form-control" id="txtItemName" required type="text">
+                <span class="control-error" id="lblItemName"></span>
+            </div>
+            <div class="form-group">
+                <label for="txtItemQty">Item Qty</label>
+                <input class="form-control" id="txtItemQty" required type="text">
+                <span class="control-error" id="lblItemQty"></span>
+            </div>
+            <div class="form-group">
+                <label for="txtUnitPrice">Unit Price</label>
+                <input class="form-control" id="txtUnitPrice" required type="text">
+                <span class="control-error" id="lblUnitPrice"></span>
+            </div>
+
+
+
+        </div>
+        <div class="col-8">
+            <img src="assets/img/item-bg.jpg" alt="">
+        </div>
+
+
+
+    </section>
+
+    <section class="row">
+        <div class="col-4">
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary">Save Customer</button>
+                <button type="button" class="btn btn-warning">Update Customer</button>
+                <button type="button" class="btn btn-danger">Delete Customer</button>
+                <button type="button" class="btn btn-success">Get All</button>
+                <button type="button" class="btn btn-danger">Clear All</button>
+            </div>
+        </div>
+        <div class="col-8">
+            <table class="table table-bordered table-hover">
+                <thead class="bg-danger text-white">
+                <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Unit Price</th>
+                </tr>
+                </thead>
+                <tbody id="tblItem"></tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 
