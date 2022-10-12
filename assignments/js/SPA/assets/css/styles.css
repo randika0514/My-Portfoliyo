@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 header{
-    background: #b9bbbe;
+    background: #dfe6e9;
 }
 
 #main-section1{
@@ -16,7 +18,7 @@ header{
 }
 #t1,#t2,#t3,#t4{
     font-family: 'Poppins', sans-serif;
-    font-size: 0.88em;
+    font-size: 1em;
     margin-top: 5px;
     margin-bottom: 0;
 }
@@ -36,15 +38,16 @@ header{
 }
 
 #dashboard-gif{
-    width: 100%;
+    width: 99.5%;
     height: 75%;
     position: absolute !important;
-    left: 0;
+    left: 0.5%;
 }
 
 #db-img{
-    width: 99%;
+    width: 98%;
     height: 103%;
     position: absolute;
     top: 3%;
+    left: 0.7%;
 }
