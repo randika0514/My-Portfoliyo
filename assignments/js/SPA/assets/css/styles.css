@@ -66,3 +66,11 @@ header{
 #customerContent>section:first-child>div:first-child>h1{
     color: #dd6e5c;
 }
+
+#customerContent>section:nth-child(2)>div:first-child>div{
+    width: 50%;
+    height: 106%;
+    position: relative;
+    left: 24%;
+}
+
