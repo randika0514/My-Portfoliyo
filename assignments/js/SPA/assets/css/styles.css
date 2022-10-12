@@ -4,6 +4,10 @@
     display: none;
 }
 
+#ItemContent{
+    display: none;
+}
+
 header{
     background: #dfe6e9;
 }
