@@ -22,26 +22,44 @@ $("#btnCusUpdate").click(function (){
     let customerID = $("#txtCustomerId").val();
     let response = updateCustomer(customerID);
     if (response){
-        alert("Updated Successfully.....!")
+        alert("Updated Successfully.....!");
         setTextFieldValues("", "" , "", "");
     }else {
-        alert("Update Unsuccessfully.....!")
+        alert("Update Unsuccessfully.....!");
     }
 });
 
 
-$("#btnCusDelete").click(function (){
+/*$("#btnCusDelete").click(function (){
    let deleteId = $("#txtCustomerId").val();
-   let option = confirm("Do you want Delete Customer ID : "+deleteId);
+   let option = confirm("Do you want Delete Customer ID : " + deleteId);
 
    if (option){
        if (deleteCustomer(deleteId)) {
            alert("Customer Deleted Successfully.....!");
-           setTextFieldValues("", "", "", "")
+           setTextFieldValues("", "", "", "");
        }else {
-           alert("Please Check the Customer ID")
+           alert("Please Check the Customer ID");
        }
    }
+});*/
+
+$("#btnCusDelete").click(function () {
+    let deleteCusID = $("#txtCustomerId").val();
+
+    let option = confirm("Do you want Delete Customer ID : " + deleteCusID);
+    if (option){
+        if (deleteCustomer(deleteCusID)) {
+            alert("Customer Successfully Deleted..");
+            setTextFieldValues("", "", "", "");
+        } else {
+            alert("Please Check the Customer ID");
+        }
+    }
+});
+
+$("#btnCusGetAll").click(function (){
+   loadAllCustomer();
 });
 
 /*--------------------------------------------------------*/
@@ -100,7 +118,7 @@ function setTextFieldValues(id, name, address, salary){
     $("#txtCustomerSalary").val(salary);
 }
 
-function deleteCustomer(customerID){
+/*function deleteCustomer(customerID){
     let customer = searchCustomer(customerID);
     if (customer != null){
         let indexNumber = customers.indexOf(customer);
@@ -110,5 +128,16 @@ function deleteCustomer(customerID){
     }else {
         return false;
     }
-}
+}*/
 
+function deleteCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
+        loadAllCustomer();
+        return true;
+    } else {
+        return false;
+    }
+}
