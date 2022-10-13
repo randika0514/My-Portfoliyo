@@ -30,6 +30,22 @@ $("#btnCusUpdate").click(function (){
 });
 
 
+$("#btnCusDelete").click(function (){
+   let deleteId = $("#txtCustomerId").val();
+   let option = confirm("Do you want Delete Customer ID : "+deleteId);
+
+   if (option){
+       if (deleteCustomer(deleteId)) {
+           alert("Customer Deleted Successfully.....!");
+           setTextFieldValues("", "", "", "")
+       }else {
+           alert("Please Check the Customer ID")
+       }
+   }
+});
+
+/*--------------------------------------------------------*/
+
 $("#txtCustomerId").on('keyup', function (event){
     if (event.code=="Enter"){
         let typedId = $("#txtCustomerId").val();
@@ -84,5 +100,15 @@ function setTextFieldValues(id, name, address, salary){
     $("#txtCustomerSalary").val(salary);
 }
 
-
+function deleteCustomer(customerID){
+    let customer = searchCustomer(customerID);
+    if (customer != null){
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
+        loadAllCustomer();
+        return true;
+    }else {
+        return false;
+    }
+}
 
