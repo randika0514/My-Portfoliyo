@@ -17,6 +17,19 @@ $("#btnCusSave").click(function (){
     loadAllCustomer();
 });
 
+
+$("#btnCusUpdate").click(function (){
+    let customerID = $("#txtCustomerId").val();
+    let response = updateCustomer(customerID);
+    if (response){
+        alert("Updated Successfully.....!")
+        setTextFieldValues("", "" , "", "");
+    }else {
+        alert("Update Unsuccessfully.....!")
+    }
+});
+
+
 function loadAllCustomer(){
     $("#tblCustomer").empty();
 
@@ -50,8 +63,12 @@ function updateCustomer(customerId){
     }
 }
 
-$("#btnCusUpdate").click(function (){
-    let customerID = $("#txtCustomerId").val();
-    let response = upda
-});
+function setTextFieldValues(id, name, address, salary){
+    $("#txtCustomerId").val(id);
+    $("#txtCustomerName").val(name);
+    $("#txtCustomerAddress").val(address);
+    $("#txtCustomerSalary").val(salary);
+}
+
+
 
