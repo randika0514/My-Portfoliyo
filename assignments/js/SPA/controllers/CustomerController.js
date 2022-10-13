@@ -30,6 +30,20 @@ $("#btnCusUpdate").click(function (){
 });
 
 
+$("#txtCustomerId").on('keyup', function (event){
+    if (event.code=="Enter"){
+        let typedId = $("#txtCustomerId").val();
+        let customer = searchCustomer(typedId);
+        if (customer != null) {
+            setTextFieldValues(customer.id, customer.name ,customer.address, customer.salary);
+        }else {
+            alert("Not Available.....!");
+            setTextFieldValues("", "", "", "");
+        }
+    }
+});
+
+
 function loadAllCustomer(){
     $("#tblCustomer").empty();
 
