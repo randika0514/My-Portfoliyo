@@ -107,8 +107,10 @@ header{
 }
 
 #orderContent>div:first-child>div:first-child{
-    background: #0a53be;
+    background: white;
     position: absolute;
     top: 7%;
     left: 1%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5%;
 }
