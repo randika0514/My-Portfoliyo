@@ -101,3 +101,7 @@ header{
     position: relative;
     left: 24%;
 }
+
+#orderContent>div:first-child>div:first-child>h1{
+    color: #dd6e5c;
+}
