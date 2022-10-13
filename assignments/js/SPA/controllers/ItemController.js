@@ -43,6 +43,10 @@ $("#btnItemDelete").click(function () {
     }
 });
 
+$("#btnItemGetAll").click(function (){
+    loadAllItem();
+});
+
 /*====================================*/
 
 function loadAllItem(){
