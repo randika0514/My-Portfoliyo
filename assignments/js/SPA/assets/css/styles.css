@@ -146,3 +146,11 @@ header{
     color: #dd6e5c;
     height: 38vh;
 }
+
+#orderTableBox{
+    height: 40vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 56%;
+
+}
