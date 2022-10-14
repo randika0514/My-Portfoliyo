@@ -197,88 +197,125 @@
 
 <!-----------------Order------------------------->
 <main class="container-fluid" id="orderContent">
-    <div class="row">
-        <div class="col-4">
+    <section class="row">
+        <section class="col-4">
+            <section id="itemBox">
+                <h3>Invoice Details</h3>
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Order ID</label>
+                            <input class="form-control" id="txtOrderId" required type="text">
+                            <span class="control-error" id="orderId-invalid-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Order Date</label>
+                            <input class="form-control" id="txtOrderDate" required type="date">
+                        </div>
+                    </section>
+                </section>
+                <!-------------------------->
+                <section class="row">
+                    <section class="col-12">
+                        <div class="form-group">
+                            <label>Customer ID</label>
+                            <select class="form-control" id="selectCusId"></select>
+                            <span class="control-error" id="cus-empty-error"></span>
+                        </div>
+                    </section>
+                </section>
+                <!-------------------------->
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Customer Name</label>
+                            <input class="form-control" id="txtOrderCusName" required type="text">
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Customer Salary</label>
+                            <input class="form-control" id="txtOrderCusSalary" required type="text">
+                        </div>
+                    </section>
+                </section>
+                <!-------------------------->
+                <section class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Customer Address</label>
+                            <input class="form-control" id="txtOrderCusAddress" required type="text">
+                        </div>
+                    </div>
+                </section>
+            </section>
 
-            <h1>Create Order</h1>
-            <div class="row">
-                <div class="col-6">
-                    <div class="form-group">
-                        <label>Order ID</label>
-                        <input class="form-control" id="txtOrderId" required type="text">
-                        <span class="control-error" id="orderId-invalid-error"></span>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="form-group">
-                        <label>Order Date</label>
-                        <input class="form-control" id="txtOrderDate" required type="date">
-                    </div>
-                </div>
-            </div>
-        <!-------------------------->
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        <label>Customer ID</label>
-                        <select class="form-control" id="selectCusId"></select>
-                        <span class="control-error" id="cus-empty-error"></span>
-                    </div>
-                </div>
-            </div>
-        <!-------------------------->
-            <div class="row">
-                <div class="col-6">
-                    <div class="form-group">
-                        <label>Customer Name</label>
-                        <input class="form-control" id="txtOrderCusName" required type="text">
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="form-group">
-                        <label>Customer Salary</label>
-                        <input class="form-control" id="txtOrderCusSalary" required type="text">
-                    </div>
-                </div>
-            </div>
-        <!-------------------------->
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        <label>Customer Address</label>
-                        <input class="form-control" id="txtOrderCusAddress" required type="text">
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </div>
+        </section>
+
+        <section class="col-4">
+            <section id="invoiceBox">
+                <section class="row">
+                    <section class="col-12">
+                        <div class="form-group">
+                            <label>Item Code</label>
+                            <select class="form-control" id="selectItemCode"></select>
+                            <span class="control-error" id="item-empty-error"></span>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="row">
+
+                </section>
+
+                <section class="row">
+
+                </section>
+
+                <section class="row">
+
+                </section>
+            </section>
+        </section>
+    </section>
 <!------------------------------------------->
-    <div class="row">
-        <div class="col-4">
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        <label>Item Code</label>
-                        <select class="form-control" id="selectItemCode"></select>
-                        <span class="control-error" id="item-empty-error"></span>
-                    </div>
-                </div>
-            </div>
+    <section class="row">
+        <!--<section class="col-4">
+            <section id="invoiceBox">
+                <section class="row">
+                    <section class="col-12">
+                        <div class="form-group">
+                            <label>Item Code</label>
+                            <select class="form-control" id="selectItemCode"></select>
+                            <span class="control-error" id="item-empty-error"></span>
+                        </div>
+                    </section>
+                </section>
 
-            <div class="row">
+                <section class="row">
 
-            </div>
+                </section>
 
-            <div class="row">
+                <section class="row">
 
-            </div>
+                </section>
 
-            <div class="row">
+                <section class="row">
 
-            </div>
+                </section>
+            </section>
+            </section>-->
+
+
+
+        <div class="col-8">
+
         </div>
-    </div>
+
+    </section>
 </main>
 
 

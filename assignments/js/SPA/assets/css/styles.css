@@ -91,9 +91,7 @@ header{
     left: 0;
 }
 
-#ItemContent>section:first-child>div:first-child>h1{
-    color: #dd6e5c;
-}
+
 
 #ItemContent>section:nth-child(2)>div:first-child>div{
     width: 50%;
@@ -102,15 +100,34 @@ header{
     left: 24%;
 }
 
-#orderContent>div:first-child>div:first-child>h1{
+#orderContent>section:first-child>div:first-child>h1{
     color: #dd6e5c;
 }
 
-#orderContent>div:first-child>div:first-child{
+/*
+#orderContent>section:first-child>section:first-child{
     background: white;
-    position: absolute;
+    position: relative;
     top: 7%;
     left: 1%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5%;
+}*/
+
+#itemBox{
+    background: white;
+    position: relative;
+    top: 7%;
+    left: 1%;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5%;
+}
+
+#invoiceBox{
+    background: white;
+    position: relative;
+    top: 7%;
+    left: 10%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
 }
