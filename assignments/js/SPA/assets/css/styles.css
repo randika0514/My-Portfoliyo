@@ -133,6 +133,7 @@ header{
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
     color: #dd6e5c;
+    height: 49vh;
 }
 
 #totalBox{
@@ -143,4 +144,5 @@ header{
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
     color: #dd6e5c;
+    height: 38vh;
 }
