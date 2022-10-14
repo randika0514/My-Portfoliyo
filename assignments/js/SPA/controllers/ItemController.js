@@ -15,6 +15,8 @@ $("#btnItemSave").click(function (){
 
    loadAllItem();
 
+   loadAllItemForOrder();
+
 });
 
 

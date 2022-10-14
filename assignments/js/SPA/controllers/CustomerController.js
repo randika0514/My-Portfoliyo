@@ -15,6 +15,9 @@ $("#btnCusSave").click(function (){
     customers.push(customerObject);
 
     loadAllCustomer();
+
+    loadAllCustomerForOrder();
+
 });
 
 
