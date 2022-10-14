@@ -147,10 +147,18 @@ header{
     height: 38vh;
 }
 
-/*#orderTableBox{
+#orderTableBox{
     height: 40vh;
     overflow-y: scroll;
     position: absolute;
-    top: 56%;
+    top: 60%;
+    right: 0.5%;
+}
 
-}*/
+#orderContent>section:nth-child(2)>section:first-child>img{
+    position: absolute;
+    height: 41vh;
+    width: 34vw;
+    top: 5vh;
+    left: 1%;
+}
