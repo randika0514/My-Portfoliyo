@@ -324,13 +324,11 @@
         </section>
 
 
-        <section class="col-4">
+        <section class="col-4" style="position: relative;right: 0.5%;">
             <section id="totalBox">
                 <h3>Payment</h3>
                 <section class="row">
                     <section class="col-6">
-                        <!--<span class="" id="total-text">Total : </span>
-                        <span id="total">00.0</span> Rs/=-->
                         <div class="form-group">
                             <label>Cash</label>
                             <input class="form-control" id="txtCash" required type="number">
@@ -378,6 +376,26 @@
                 </section>
 
             </section>
+        </section>
+    </section>
+
+
+    <section class="row">
+        <section class="col-md-12 mt-4" style="height:180px; overflow-y: scroll">
+            <table class="table table-bordered text-white">
+                <thead class="bg-primary">
+                <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                <tbody class="bg-light text-dark" id="orderTable">
+
+                </tbody>
+            </table>
         </section>
     </section>
 <!------------------------------------------->

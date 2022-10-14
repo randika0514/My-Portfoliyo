@@ -129,7 +129,7 @@ header{
     background: white;
     position: relative;
     top: 7%;
-    left: 2%;
+    left: 0.5%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
     color: #dd6e5c;
@@ -140,7 +140,7 @@ header{
     background: white;
     position: relative;
     top: 7%;
-    left: 2%;
+    left: 1%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
     color: #dd6e5c;
