@@ -1,7 +1,7 @@
 function loadAllCustomerForOrder(){
-    $("#selectCusId").empty();
+    $("#selectCusID").empty();
     for (let customer of customers){
-        $("#selectCusId").append(`<option>${customer.name}</option>`);
+        $("#selectCusID").append(`<option>${customer.id}</option>`);
     }
 }
 
