@@ -1,0 +1,4 @@
+function loadAllCustomer(){
+    $("#selectCusId").empty();
+
+}
