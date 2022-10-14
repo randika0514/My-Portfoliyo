@@ -100,7 +100,7 @@ header{
     left: 24%;
 }
 
-#orderContent>section:first-child>div:first-child>h1{
+#orderContent>section:first-child>div:first-child>h3{
     color: #dd6e5c;
 }
 
@@ -114,20 +114,23 @@ header{
     border-radius: 5%;
 }*/
 
-#itemBox{
+#invoiceBox{
     background: white;
     position: relative;
     top: 7%;
     left: 1%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
+    color: #dd6e5c;
 }
 
-#invoiceBox{
+
+#itemBox{
     background: white;
     position: relative;
     top: 7%;
-    left: 10%;
+    left: 5%;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5%;
+    color: #dd6e5c;
 }

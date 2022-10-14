@@ -199,7 +199,7 @@
 <main class="container-fluid" id="orderContent">
     <section class="row">
         <section class="col-4">
-            <section id="itemBox">
+            <section id="invoiceBox">
                 <h3>Invoice Details</h3>
                 <section class="row">
                     <section class="col-6">
@@ -256,7 +256,10 @@
         </section>
 
         <section class="col-4">
-            <section id="invoiceBox">
+            <section id="itemBox">
+
+                <h3>Item Details</h3>
+
                 <section class="row">
                     <section class="col-12">
                         <div class="form-group">
@@ -267,9 +270,24 @@
                     </section>
                 </section>
 
-                <section class="row">
 
+                <section class="row">
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Item Name</label>
+                            <input class="form-control" id="txtOrderIName" required type="text">
+                            <span class="control-error" id="itemName-invalid-error"></span>
+                        </div>
+                    </section>
+                    <section class="col-6">
+                        <div class="form-group">
+                            <label>Item Price</label>
+                            <input class="form-control" id="txtOrderIPrice" required type="text">
+                            <span class="control-error" id="itemPrice-invalid-error"></span>
+                        </div>
+                    </section>
                 </section>
+
 
                 <section class="row">
 
@@ -282,8 +300,8 @@
         </section>
     </section>
 <!------------------------------------------->
-    <section class="row">
-        <!--<section class="col-4">
+    <!--<section class="row">
+        &lt;!&ndash;<section class="col-4">
             <section id="invoiceBox">
                 <section class="row">
                     <section class="col-12">
@@ -307,7 +325,7 @@
 
                 </section>
             </section>
-            </section>-->
+            </section>&ndash;&gt;
 
 
 
@@ -315,7 +333,7 @@
 
         </div>
 
-    </section>
+    </section>-->
 </main>
 
 
