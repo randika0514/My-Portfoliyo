@@ -667,11 +667,31 @@
             top: 1171px;
             transform: skew(0,23deg);
         }
-
+/*=======================================================================*/
         #project {
-
+            background: white;
+            height: 110vh;
+            width: 98.9vw;
+            position: relative;
+            top: 1171px;
+            transform: skew(0,23deg);
         }
 
+        #assignments{
+            width: 100%;
+            height: 50%;
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
+            gap: 3%;
+            position: absolute;
+            right: -60px;
+            top: 18%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0);
+            transform: skew(0,157deg);
+        }
+/*==========================================================================*/
         #activities {
 
         }
@@ -822,7 +842,40 @@
 
     </section>
     <section class="skills-section" id="skills"></section>
-    <section class="project-section" id="project"></section>
+    <section class="project-section" id="project">
+        <section id="assignments">
+            <div>
+                <a href="assignments/css/basics/case1/Case_1.html"style="background: sandybrown">CSS Basic Case-1</a>
+            </div>
+            <div>
+                <a href="assignments/css/basics/case2/Case_2.html"style="background: crimson">CSS Basic Case-2</a>
+            </div>
+            <div>
+                <a href="assignments/css/basics/case3/Case_3.html"style="background: #842aa5">CSS Basic Case-3</a>
+            </div>
+            <div>
+                <a href="assignments/css/basics/case4/Case_4.html"style="background: #2aa553">CSS Basic Case-4</a>
+            </div>
+            <div>
+                <a href="assignments/css/basics/case5/Case_5.html"style="background: #d2ab48">CSS Basic Case-5</a>
+            </div>
+            <div>
+                <a href="assignments/css/basics/case6/Case_6.html"style="background: #875637">CSS Basic Case-6</a>
+            </div>
+            <div>
+                <a href="assignments/css/animations/case_1.html"style="background: #926b5b">CSS Animation Case-1</a>
+            </div>
+            <div>
+                <a href="assignments/css/transitions/case2/case_2.html"style="background: #e23fcc">CSS Transitions Case-2</a>
+            </div>
+            <div>
+                <a href="assignments/css/frameworks/pos/home.html "style="background: #fda4b1">CSS Framework POS</a>
+            </div>
+            <div>
+                <a href="assignments/js/SPA/index.html" style="background: #102608">JS SPA</a>
+            </div>
+        </section>
+    </section>
     <section class="activity-section" id="activities"></section>
     <section class="contact-section" id="contact"></section>
 
