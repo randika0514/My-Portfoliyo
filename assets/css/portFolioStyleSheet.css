@@ -861,7 +861,7 @@ h2#myName{
 }
 
 #skills>div:nth-child(2){
-    background: #008001;
+    background: #9999a5;
     height: 35vh;
     width: 18vw;
     position: absolute;
@@ -871,7 +871,7 @@ h2#myName{
 }
 
 #skills>div:nth-child(3){
-    background: #008001;
+    background: #56b2a5;
     height: 35vh;
     width: 18vw;
     position: absolute;
@@ -880,7 +880,7 @@ h2#myName{
     transform: skew(0,157deg);
 }
 #skills>div:nth-child(4){
-    background: #008001;
+    background: #c7c8cd;
     height: 35vh;
     width: 18vw;
     position: absolute;
@@ -889,7 +889,7 @@ h2#myName{
     transform: skew(0,157deg);
 }
 #skills>div:nth-child(5){
-    background: #008001;
+    background: #5e5f71;
     height: 35vh;
     width: 18vw;
     position: absolute;
@@ -898,7 +898,7 @@ h2#myName{
     transform: skew(0,157deg);
 }
 #skills>div:nth-child(6){
-    background: #008001;
+    background: #706f81;
     height: 35vh;
     width: 18vw;
     position: absolute;
@@ -907,7 +907,7 @@ h2#myName{
     transform: skew(0,157deg);
 }
 #skills>div:nth-child(7){
-    background: #008001;
+    background: #249f8d;
     height: 35vh;
     width: 18vw;
     position: absolute;
