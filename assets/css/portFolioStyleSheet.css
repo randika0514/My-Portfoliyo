@@ -1048,7 +1048,7 @@ h2#myName{
     top: 18%;
     left: 82%;
     transform: skew(0,157deg);
-    filter: drop-shadow(10px 10px 5px #0000007d);
+    /*filter: drop-shadow(10px 10px 5px #0000007d);*/
 }
 
 /*#skills>div:nth-child(8)>img:nth-child(3){
