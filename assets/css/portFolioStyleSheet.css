@@ -868,6 +868,7 @@ h2#myName{
     top: 26%;
     left: 12%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
 
 #skills>div:nth-child(3){
@@ -878,6 +879,7 @@ h2#myName{
     top: 56%;
     left: 12%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
 #skills>div:nth-child(4){
     background: #c7c8cd;
@@ -887,6 +889,7 @@ h2#myName{
     top: 29%;
     left: 32%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
 #skills>div:nth-child(5){
     background: #5e5f71;
@@ -896,6 +899,7 @@ h2#myName{
     top: 59%;
     left: 32%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
 #skills>div:nth-child(6){
     background: #706f81;
@@ -905,6 +909,7 @@ h2#myName{
     top: 8%;
     left: 52%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
 #skills>div:nth-child(7){
     background: #249f8d;
@@ -914,7 +919,62 @@ h2#myName{
     top: 38%;
     left: 52%;
     transform: skew(0,157deg);
+    box-shadow: #0000007d 10px 10px 5px;
 }
+
+/*----------------*/
+
+#skills>div:nth-child(2)>img{
+    height: 18vh;
+    width: 9vw;
+    position: absolute;
+    left: 25%;
+    top: 3%;
+}
+
+#skills>div:nth-child(3)>img{
+    height: 18vh;
+    width: 9vw;
+    position: absolute;
+    left: 25%;
+    top: 3%;
+}
+
+#skills>div:nth-child(4)>img{
+    height: 18vh;
+    width: 9vw;
+    position: absolute;
+    left: 25%;
+}
+
+#skills>div:nth-child(5)>img{
+    height: 18vh;
+    width: 9vw;
+    position: absolute;
+    left: 25%;
+    top: 3%;
+}
+
+#skills>div:nth-child(6)>img{
+    height: 16vh;
+    width: 8vw;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+}
+
+#skills>div:nth-child(7)>img{
+    height: 14vh;
+    width: 7vw;
+    position: absolute;
+    left: 30%;
+    top: 6%;
+}
+
+
+
+
+
 /*=======================================================================*/
 #project {
     background: white;
