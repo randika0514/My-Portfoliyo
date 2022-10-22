@@ -822,8 +822,8 @@ h2#myName{
 
 /*==========================================================   */
 #skills {
-    background: #A52B2A;
-    height: 120vh;
+    background: #ededef;
+    height: 130vh;
     width: 98.9vw;
     position: relative;
     top: 1171px;
@@ -842,7 +842,7 @@ h2#myName{
 }
 
 #skills>div:first-child>h1:first-child{
-    margin-top: -10vh;
+    margin-top: -7vh;
     left: -5px;
     top: 0;
     position: absolute;
@@ -852,7 +852,7 @@ h2#myName{
 }
 
 #skills>div:first-child>h1:nth-child(2){
-    margin-top: 0;
+    margin-top: 4vh;
     color: #25253F;
     font-family: 'Inter', sans-serif;
     font-size: 4.7em;
@@ -862,11 +862,57 @@ h2#myName{
 
 #skills>div:nth-child(2){
     background: #008001;
-    height: 20vh;
-    width: 15vw;
+    height: 35vh;
+    width: 18vw;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 26%;
+    left: 12%;
+    transform: skew(0,157deg);
+}
+
+#skills>div:nth-child(3){
+    background: #008001;
+    height: 35vh;
+    width: 18vw;
+    position: absolute;
+    top: 56%;
+    left: 12%;
+    transform: skew(0,157deg);
+}
+#skills>div:nth-child(4){
+    background: #008001;
+    height: 35vh;
+    width: 18vw;
+    position: absolute;
+    top: 29%;
+    left: 32%;
+    transform: skew(0,157deg);
+}
+#skills>div:nth-child(5){
+    background: #008001;
+    height: 35vh;
+    width: 18vw;
+    position: absolute;
+    top: 59%;
+    left: 32%;
+    transform: skew(0,157deg);
+}
+#skills>div:nth-child(6){
+    background: #008001;
+    height: 35vh;
+    width: 18vw;
+    position: absolute;
+    top: 8%;
+    left: 52%;
+    transform: skew(0,157deg);
+}
+#skills>div:nth-child(7){
+    background: #008001;
+    height: 35vh;
+    width: 18vw;
+    position: absolute;
+    top: 38%;
+    left: 52%;
     transform: skew(0,157deg);
 }
 /*=======================================================================*/
