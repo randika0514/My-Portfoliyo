@@ -765,6 +765,7 @@ h2#myName{
     left: 5%;
     position: absolute;
     top: 3%;
+    filter: drop-shadow(10px 10px 5px #0000007d);
 }
 
 #education>div:nth-child(13){
@@ -785,6 +786,7 @@ h2#myName{
     left: 0%;
     position: absolute;
     top: 0%;
+    filter: drop-shadow(10px 10px 5px #0000007d);
 }
 
 #education>div:nth-child(14){
@@ -805,6 +807,7 @@ h2#myName{
     left: 0%;
     position: absolute;
     top: 0%;
+    filter: drop-shadow(10px 10px 5px #0000007d);
     /*box-shadow: #0000002e 3px 3px 3px;*/
 }
 
