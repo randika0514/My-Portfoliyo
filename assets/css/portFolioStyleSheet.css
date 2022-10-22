@@ -1081,7 +1081,7 @@ h2#myName{
     filter: drop-shadow(10px 10px 5px #0000007d);
 }
 
-/*#skills>div:nth-child(8)>img:nth-child(5){
+#skills>div:nth-child(8)>img:nth-child(5){
     height: 12vh;
     width: 6vw;
     position: absolute;
@@ -1109,7 +1109,7 @@ h2#myName{
     left: 82%;
     transform: skew(0,157deg);
     filter: drop-shadow(10px 10px 5px #0000007d);
-}*/
+}
 
 
 
