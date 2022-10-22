@@ -1030,6 +1030,16 @@ h2#myName{
 }
 
 /*---------------------*/
+#skills>div:nth-child(8){
+    height: 100vh;
+    width: 10vw;
+    position: absolute;
+    top: 7%;
+    left: 82%;
+    transform: skew(0,157deg);
+    background: #a97836;
+}
+
 
 #skills>div:nth-child(8)>img:first-child{
     height: 12vh;
