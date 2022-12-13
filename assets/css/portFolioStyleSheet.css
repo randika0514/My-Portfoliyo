@@ -1118,20 +1118,23 @@ h2#myName{
 
 
 #project {
-    background: #0c5460;
-    height: 130vh;
+    background: #25253f;
+    height: 170vh;
     width: 98.9vw;
     position: relative;
     top: 1171px;
     transform: skew(0,23deg);
 }
 
-#project>img{
+#project>section:nth-child(1){
+    background: #199A88;
+    height: 170vh;
     width: 98.9vw;
-    height: 200vh;
     position: relative;
-    transform: rotate(45deg);
+    transform: skew(0,319deg);
+    top: 49%;
 }
+
 
 /*===========================================================================*/
 
@@ -1151,7 +1154,12 @@ h2#myName{
 }
 /*==========================================================================*/
 #activities {
-
+    background: #0a53be;
+    height: 145vh;
+    width: 98.9vw;
+    position: relative;
+    top: 1145px;
+    transform: skew(0,23deg);
 }
 
 #contact {
