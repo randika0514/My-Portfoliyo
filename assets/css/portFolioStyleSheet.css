@@ -1118,12 +1118,16 @@ h2#myName{
 
 
 #project {
-    background: white;
-    height: 110vh;
+    background: #0c5460;
+    height: 130vh;
     width: 98.9vw;
     position: relative;
     top: 1171px;
     transform: skew(0,23deg);
+}
+
+#project>section:nth-child(1){
+
 }
 
 /*===========================================================================*/
