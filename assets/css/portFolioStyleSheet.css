@@ -1126,8 +1126,11 @@ h2#myName{
     transform: skew(0,23deg);
 }
 
-#project>section:nth-child(1){
-
+#project>img{
+    width: 98.9vw;
+    height: 200vh;
+    position: relative;
+    transform: rotate(45deg);
 }
 
 /*===========================================================================*/
