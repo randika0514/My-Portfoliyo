@@ -1166,7 +1166,15 @@ h2#myName{
 }
 
 #project>section:nth-child(1)>div:nth-child(2){
-
+    transform: skew(0,204deg);
+    height: 35vh;
+    width: 42vw;
+    background: #b9bbbe78;
+    margin: auto;
+    left: 31px;
+    position: absolute;
+    top: -110vh;
+    border-radius: 40px;
 }
 
 /*===========================================================================*/
