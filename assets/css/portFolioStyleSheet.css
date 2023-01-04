@@ -1186,6 +1186,15 @@ h2#myName{
     border-radius: 40px 0px 0px 40px;
 }
 
+#project>section:nth-child(1)>div:nth-child(2)>h3{
+    color: #199A88;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    left: 57px;
+    top: -7px;
+}
+
 /*===========================================================================*/
 
 #assignments{
