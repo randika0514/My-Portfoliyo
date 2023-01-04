@@ -1205,7 +1205,7 @@ h2#myName{
     margin: auto;
     left: 740px;
     position: absolute;
-    top: -15vh;
+    top: -25vh;
     border-radius: 40px;
 }
 
@@ -1225,6 +1225,25 @@ h2#myName{
     position: absolute;
     left: 95px;
     top: -7px;
+}
+
+#project>section:nth-child(1)>div:nth-child(4){
+    transform: skew(0,204deg);
+    height: 35vh;
+    width: 42vw;
+    background: transparent;
+    margin: auto;
+    left: 740px;
+    position: absolute;
+    top: -10vh;
+}
+
+#project>section:nth-child(1)>div:nth-child(4)>img{
+    height: 86vh;
+    width: 45vw;
+    left: 53px;
+    position: absolute;
+    top: 402px;
 }
 
 /*===========================================================================*/
