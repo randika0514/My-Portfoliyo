@@ -1165,6 +1165,10 @@ h2#myName{
     left: -6px;
 }
 
+#project>section:nth-child(1)>div:nth-child(2){
+
+}
+
 /*===========================================================================*/
 
 #assignments{
