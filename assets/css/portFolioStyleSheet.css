@@ -1118,7 +1118,7 @@ h2#myName{
 
 
 #project {
-    background: #25253f;
+    background: #25253fd9;
     height: 170vh;
     width: 98.9vw;
     position: relative;
@@ -1135,6 +1135,35 @@ h2#myName{
     top: 49%;
 }
 
+#project>section:nth-child(1)>div:nth-child(1){
+    transform: skew(0,204deg);
+    height: 22vh;
+    width: 21vw;
+    background: transparent;
+    margin: auto;
+    left: 31px;
+    position: absolute;
+    top: -140vh;
+}
+
+#project>section:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
+    margin-top: -60px;
+    left: -5px;
+    top: 0;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.3em;
+    color: #9999a5;
+}
+
+#project>section:nth-child(1)>div:nth-child(1)>h1:nth-child(2){
+    margin-top: -13px;
+    color: #199A88;
+    font-family: 'Inter', sans-serif;
+    font-size: 4.7em;
+    position: absolute;
+    left: -6px;
+}
 
 /*===========================================================================*/
 
