@@ -1293,15 +1293,31 @@ h2#myName{
     background: rgba(255, 255, 255, 0);
     transform: skew(0,157deg);
 }
+
 /*==========================================================================*/
 #activities {
-    background: #0a53be;
+    background: white;
     height: 145vh;
     width: 98.9vw;
     position: relative;
     top: 1145px;
     transform: skew(0,23deg);
 }
+
+
+#activities>div:nth-child(1){
+    transform: skew(0,157deg);
+    height: 22vh;
+    width: 21vw;
+    background: transparent;
+    margin: auto;
+    left: 31px;
+    position: absolute;
+    top: 14vh;
+}
+
+
+/*==============================================================================*/
 
 #contact {
 
