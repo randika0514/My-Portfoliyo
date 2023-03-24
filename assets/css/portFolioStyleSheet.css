@@ -1334,6 +1334,32 @@ h2#myName{
     left: 0px;
 }
 
+#activities>div:nth-child(2){
+    transform: skew(0,157deg);
+    height: 52vh;
+    width: 21vw;
+    background: black;
+    margin: auto;
+    left: 70px;
+    top: 336px;
+    position: absolute;
+}
+
+#activities>div:nth-child(3){
+    transform: skew(0,157deg);
+    height: 52vh;
+    width: 21vw;
+    background: black;
+    margin: auto;
+    left: 70px;
+    top: 336px;
+    position: absolute;
+}
+
+#activities>div:nth-child(4){
+
+}
+
 
 /*==============================================================================*/
 
