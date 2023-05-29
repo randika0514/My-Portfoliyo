@@ -1338,7 +1338,8 @@ h2#myName{
     transform: skew(0,157deg);
     height: 52vh;
     width: 21vw;
-    background: black;
+    background: url(../img/travel.jpg);
+    background-size: cover;
     margin: auto;
     left: 70px;
     top: 336px;
@@ -1349,16 +1350,34 @@ h2#myName{
     transform: skew(0,157deg);
     height: 52vh;
     width: 21vw;
-    background: black;
+    background: url(../img/karate.jpg);
+    background-size: cover;
     margin: auto;
-    left: 70px;
-    top: 336px;
+    left: 74%;
+    top: -112px;
     position: absolute;
 }
 
 #activities>div:nth-child(4){
-
+    transform: skew(0,157deg);
+    height: 52vh;
+    width: 21vw;
+    background: url(../img/photography.jpg);
+    background-size: cover;
+    margin: auto;
+    left: 39%;
+    top: 114px;
+    position: absolute;
 }
+
+/*#activities>div:nth-child(3)>img {*/
+/*    height: 52vh;*/
+/*    width: 21vw;*/
+/*    margin: auto;*/
+/*    left: 70px;*/
+/*    top: 336px;*/
+/*    position: absolute;*/
+/*}*/
 
 
 /*==============================================================================*/
