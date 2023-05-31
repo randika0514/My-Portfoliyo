@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case4Anim</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+
+    <style>
+
+        main {
+            height: 600px;
+            width: 1200px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+            overflow: hidden;
+        }
+
+        main > section:nth-child(2) {
+            height: 100%;
+            width: 400%;
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            animation-name: road-animation;
+            animation-duration: 8s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        main > section:nth-child(2) > div {
+            height: 100%;
+            width: 100%;
+        }
+
+        main > img:nth-child(1) {
+            height: 300px;
+            width: 100%;
+        }
+
+        main > section:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
+            height: 300px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .city-img {
+            position: relative;
+            width: 100%;
+            top: 89px;
+        }
+
+        main>section:nth-child(3){ /*Car*/
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 95px;
+            margin: auto;
+        }
+
+        main>section:nth-child(3)>img:nth-child(1){
+            width: 460px;
+            height: 180px;
+        }
+        main>section:nth-child(3)>div{ /*Wheels*/
+            display: flex;
+            justify-content: space-between;
+            width: 366px;
+            position: relative;
+            bottom: 91px;
+            left: 40px;
+        }
+        main>section:nth-child(3)>div img{
+            width: 85px;
+            height: 85px;
+
+            animation-name: wheel-animation;
+            animation-duration: 9s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+
+        @keyframes road-animation {
+            0% {
+                transform: translateX(0%);
+            }
+            100% {
+                transform: translateX(-75%);
+            }
+        }
+
+        @keyframes wheel-animation {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <img alt="" src="assets/images/sky.jpg">
+    <section>
+        <div>
+            <img alt="" src="assets/images/road.jpg">
+            <img alt="" class="city-img" src="assets/images/city.png">
+        </div>
+        <div>
+            <img alt="" class="city-img" src="assets/images/city.png">
+        </div>
+        <div>
+            <img alt="" class="city-img" src="assets/images/city.png">
+        </div>
+        <div>
+            <img alt="" class="city-img" src="assets/images/city.png">
+        </div>
+    </section>
+    <section>
+        <img src="assets/images/car.png" alt="">
+        <div>
+            <img src="assets/images/wheel.png" alt="">
+            <img src="assets/images/wheel.png" alt="">
+        </div>
+    </section>
+</main>
+
+
+</body>
+</html>
