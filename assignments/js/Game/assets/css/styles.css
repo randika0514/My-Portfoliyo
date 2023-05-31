@@ -1,0 +1,259 @@
+
+* {
+    overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
+    /*cursor: none;*/
+}
+
+#containerL1 {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#areaL1 {
+    background-image: url("../images/img/bgL1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1536px;
+    height: 512px;
+    position: relative;
+    top: 20px;
+}
+#areaL1 > h1{
+    color: red;
+    position: relative;
+    left: 40%;
+}
+
+#gun {
+    width: 441px;
+    height: 250px;
+    position: absolute;
+     left: 236px;
+    bottom: 0px;
+    z-index: 2;
+}
+#wall {
+    background-image: url("../images/img/wall.jpg");
+    width: 100%;
+    height: 207px;
+    position: absolute;
+    bottom: 0;
+}
+#level {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 37px;
+    left: 25px;
+    top: -17px;
+}
+#score {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 37px;
+    right: 25px;
+    top: -17px;
+}
+#crosshair{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    z-index: 999;
+
+    transform: translate(-80%, -146%);
+    /* pointer-events: none;
+    transition: 0.3s transform ease;
+    transform-origin: 100% 100%; */
+}
+.zombie{
+    /* background: url("../images/gif/zomR1.gif"); */
+    width: 175px;
+    height: 180px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -70px;
+    top: 300px;
+}
+
+#health_bar {
+    width: 325px;
+    height: 50px;
+    background-color: white;
+    border-radius: 45px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+#health_bar > h3 {
+    margin: 10px;
+    font-size: 25px;
+    width: max-content;
+}
+
+#lifeCount {
+    width: max-content;
+    height: 35px;
+    position: relative;
+    bottom: 41px;
+    left: 105px;
+}
+
+.life {
+    width: 40px;
+    height: 38px;
+}
+
+#bullet_bar {
+    width: 176px;
+    height: 80px;
+    background-color: white;
+    border-radius: 9px;
+    position: relative;
+    top: 48px;
+    left: 87px;
+}
+
+#bullet_bar > img {
+    width: 64px;
+    height: 69px;
+    margin: 4px;
+}
+
+#bullets {
+    margin: 0;
+    position: relative;
+    bottom: 71px;
+    font-size: 47px;
+    left: 90px;
+    text-align: end;
+    width: max-content;
+}
+
+#btnStart {
+    background-color: green;
+    color: white;
+    width: 130px;
+    height: 50px;
+    font-size: larger;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0;
+    border-radius: 45px;
+}
+
+#mainPoster{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/img/menu.jpg");
+}
+#mainPoster h1, #mainPoster button{
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: white;
+}
+#mainPoster > div{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    height: 400px;
+}
+#mainPoster h1{
+    font-size: 85px;
+}
+#mainPoster button{
+    width: 310px;
+    height: 105px;
+    background-color: green;
+    font-size: 60px;
+    border-radius: 45px;
+    position: relative;
+    left: 320px;
+    top: 24px;
+}
+#mainPoster button:hover{
+    background-color: red;
+    transition-duration: 1s;
+}
+#mainPoster img{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 12px;
+    bottom: 37px;
+}
+
+#mainPoster img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+/*game status*/
+#statusBox {
+    background-color: #282C34;
+    width: 692px;
+    height: 454px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 700;
+    position: relative;
+    left: 424px;
+    bottom: 63px;
+}
+
+#statusText {
+    color: white;
+    font-size: 64px;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+#statusImg {
+    width: 527px;
+    height: 212px;
+    position: relative;
+    top: 28px;
+    border-radius: 10px;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 57px;
+}
+
+#btnDiv>button {
+    border: 0;
+    width: 173px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#btnMainMenu {
+    color: white;
+    background-color: #4834d4;
+    font-size: 23px;
+}
+
+#btnReplay {
+    color: white;
+    background-color: #F79F1F;
+    font-size: 23px;
+}
+
+#btnNextLevel {
+    color: white;
+    background-color: #20bf6b;
+    font-size: 23px;
+}
+
+#btnDiv button:hover{
+    background-color: red;
+    transition-duration: 1s;
+}

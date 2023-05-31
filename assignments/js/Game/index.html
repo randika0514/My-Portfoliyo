@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zombie Shooter</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="h2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--Main Menu-->
+<section id="containerMenu">
+    <section id="mainPoster">
+        <div>
+            <h1>Zombie Shooter</h1>
+            <button id="btnStartGame" type="button">PLAY</button>
+            <img src="assets/images/img/tutorial.png" alt="">
+        </div>
+    </section>
+
+</section>
+
+<!--Level 1-->
+<section id="containerL1">
+
+    <section id="areaL1">
+        <h1 id="lvlDesc">Kill 10 Zombies 🎯</h1>
+<!--        <button id="btnStart" type="button">Start</button>&lt;!&ndash;++++++++&ndash;&gt;-->
+        <h2 id="level">Level 1</h2>
+        <h2 id="score">Score</h2>
+<!--        <img src="assets/images/img/outpost.png" id="outpost" alt="">-->
+        <img id="crosshair" src="assets/images/img/crosshair.png" alt="">
+<!--        <img class="zombie" src="assets/images/gif/zomR1.gif" alt="">-->
+    </section>
+    <img src="assets/images/img/gun.png" id="gun" alt="">
+    <section id="wall">
+        <div id="bullet_bar">
+            <img src="assets/images/img/bullet.png" alt="">
+            <h3 id="bullets"></h3>
+        </div>
+    </section>
+</section>
+
+<!--game status-->
+<section id="statusBox">
+    <h1 id="statusText">Status Text</h1>
+    <img id="statusImg" src="assets/images/img/winImg.jpg" alt="">
+    <div id="btnDiv">
+        <button id="btnMainMenu" type="button">Main Menu 🏠</button>
+        <button id="btnReplay" type="button">Replay 🔄</button>
+        <button id="btnNextLevel" type="button">Next Level ➡️</button>
+    </div>
+</section>
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
